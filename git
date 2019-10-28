@@ -1,0 +1,68 @@
+1-
+What git command will take a project on Github and put it on your local machine?
+
+Answer :
+git clone
+
+
+2-
+What git command would you use to see the current state of the project, or to see what is not staged?
+
+Answer :
+
+git status
+
+3-
+Which command would you use to remove all of the '.json' files from the current directory?
+
+Answer :
+
+rm *.json
+
+4-
+Which of these commands will delete a directory named 'config' from your current one.
+
+Answer :
+
+rm -rf config
+
+
+6-
+Which of the following commands allows you to specify the parent repo from which you forked your current local copy.
+
+Answer :
+
+git remote
+
+7-
+How do you rename your "config" folder to "setup" so instead of this:
+
+
+Answer Choices:
+
+I use the "ren" command to change the directory name.
+
+
+
+8-
+In the terminal, how would you move up one directory?
+
+Answer Choices:
+cd .. 
+
+
+
+8-
+From the command-line, how would you move from the "db/" directory to the "public/" directory in a project folder that looks like this?
+
+config/
+    ↳ db/
+node-modules/
+public/
+index.html
+README.md
+Answer :
+
+cd ../../public
+
+
